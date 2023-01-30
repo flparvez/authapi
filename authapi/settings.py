@@ -48,7 +48,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'authapi.urls'
 
 #  CORS_ALLOWED_ORIGINS: True
-Access-Control-Allow-Credentials: True
+# Access-Control-Allow-Credentials: True
 
 TEMPLATES = [
     {
@@ -176,4 +176,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
     "https://flparvez-blog.netlify.app/",
+    "https://flparvez.up.railway.app/",
 ]
