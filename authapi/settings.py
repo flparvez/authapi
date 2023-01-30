@@ -47,7 +47,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'authapi.urls'
 
-# CORS_ALLOWED_ORIGINS: True
+ CORS_ALLOWED_ORIGINS: True
 
 TEMPLATES = [
     {
